@@ -1,4 +1,7 @@
 #!/bin/bash
+#show the password expirey
+#any user not set exp.passwd
+# all user create exp.passwd 
 while read line;
 do
 om=`chage -l $line | grep "Password expires" | cut -d ':' -f 2`
