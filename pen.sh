@@ -9,3 +9,4 @@ else
 echo " your password expirey is set"
 fi
 done <list
+#om
